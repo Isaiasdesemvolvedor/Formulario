@@ -1,6 +1,7 @@
 body {
   background-image: linear-gradient(to right, purple, rgb(230, 104, 31));
   color: white;
+
 }
 body .container {
   max-width: 600px;
@@ -29,5 +30,31 @@ body .container form button {
   font-size: 16px;
   cursor: pointer;
 }
+button{  
+  position: relative;
+top: 20px;
+}
 
-/*# sourceMappingURL=App.css.map */
+@media only screen and (min-width:330px) and (max-width:650px) {
+  body .container form input,
+  body .container form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 320px;
+    margin: auto;
+  }
+  body .container form button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 340px;
+    margin: auto;
+  }
+  label{
+   position: relative;
+   margin: auto;
+   right: 150px;
+  }
+ 
+}

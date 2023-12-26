@@ -20,7 +20,6 @@ function App() {
     <label htmlFor="email">Gmail</label>
     <input type="email" id="email"/> 
     <label htmlFor="message">Texto:</label>
-    <input type="hidden" name="_next" value="https://isaiasdesemvolvedor.github.io/thanks/"/>
     <textarea  id="message"
       name="message"
       rows={4}

@@ -12,7 +12,7 @@ function App() {
 <div className="container">
   <h1>Formulário de Contato</h1>
 
-  <form id="contact-form" method='post' action="https://formsubmit.co/isaiasnovaera@gmail.com">
+  <form id="contact-form" method='POST' action="https://formsubmit.co/isaiasnovaera@gmail.com">
     <label htmlFor="name">Nome:</label>
     <input type="text" id="name" name="name" required />
     <label htmlFor="idade">Idade:</label>
